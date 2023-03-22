@@ -1,0 +1,24 @@
+.loan-amount{
+    background-color: #1976d2;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 120px;
+    height: 120px; */
+    padding: 25px;
+    max-width: max-content;
+}
+
+.loan-amount p{
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.loan-amount .amount{
+    font-size: 28px;
+    font-weight: 600;
+}
